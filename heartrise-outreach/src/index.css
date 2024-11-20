@@ -1,64 +1,63 @@
-/* Reset some default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
+  }
+  
+  body {
     font-family: Arial, sans-serif;
     color: #333;
     background-color: #f4f4f9;
-}
-
-/* Navbar styling */
-nav {
+  }
+  
+  /* Navbar styling */
+  nav {
     background-color: #3b6978;
     padding: 10px 0;
     text-align: center;
-}
-
-.navbar a {
+  }
+  
+  .navbar a {
     color: #f3dcb2;
     text-decoration: none;
     padding: 10px 20px;
     font-size: 1.1em;
-}
-
-.navbar a:hover {
+  }
+  
+  .navbar a:hover {
     background-color: #204051;
     color: #fff;
     border-radius: 5px;
-}
-
-/* Header Section */
-header {
+  }
+  
+  /* Header Section */
+  header {
     background-image: linear-gradient(to right, #3b6978, #204051);
     padding: 50px 20px;
     text-align: center;
-}
-
-header .logo img {
+  }
+  
+  header .logo img {
     width: 400px;
     height: auto;
-}
-
-.header-content {
+  }
+  
+  .header-content {
     max-width: 600px;
     margin: 0 auto;
-}
-
-h1 {
+  }
+  
+  h1 {
     font-size: 2.5em;
     margin: 20px 0;
-}
-
-.tagline {
+  }
+  
+  .tagline {
     font-size: 1.2em;
     margin-bottom: 20px;
-}
-
-button {
+  }
+  
+  button {
     padding: 10px 20px;
     font-size: 1em;
     background-color: #f3dcb2;
@@ -66,56 +65,94 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-
-button:hover {
+  }
+  
+  button:hover {
     background-color: #204051;
     color: #f3dcb2;
-}
-
-/* Sections */
-section {
+  }
+  
+  /* Sections */
+  section {
     padding: 40px 20px;
     margin: 20px 0;
     text-align: center;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
+  }
+  
+  h2 {
     font-size: 2em;
     color: #3b6978;
     margin-bottom: 20px;
-}
-
-/* Programs Section */
-.programs-container {
+  }
+  
+  /* Programs Section */
+  .programs-container {
     display: flex;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
-}
-
-.program {
+  }
+  
+  .program {
     width: 300px;
     background-color: #f3dcb2;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-}
-
-.program h3 {
+  }
+  
+  .program h3 {
     color: #3b6978;
     font-size: 1.5em;
     margin-bottom: 10px;
-}
-
-footer {
+  }
+  
+  footer {
     background-color: #3b6978;
     color: #f3dcb2;
     padding: 20px;
     font-size: 0.9em;
     text-align: center;
-}
+  }
+  
+  /* Additional Styling for Donation Section */
+.donation {
+    background-color: #f8b400; /* A warm color to signify donation */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .donation h3 {
+    color: #fff;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .donation p {
+    color: #fff;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  
+  .donation button {
+    padding: 12px 24px;
+    background-color: #fff;
+    color: #3b6978;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .donation button:hover {
+    background-color: #204051;
+    color: #fff;
+  }
+  
